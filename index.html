@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RentEdu — Sewa Alat Elektronik untuk Pendidikan</title>
+  <meta name="description" content="Sewa laptop, printer, proyektor, dan perangkat elektronik lainnya untuk kebutuhan sekolah dan kuliah dengan harga terjangkau." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <i class="fas fa-laptop-code"></i>
+        <span>Rent<span class="accent">Edu</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#layanan">Layanan</a></li>
+        <li><a href="#produk">Katalog</a></li>
+        <li><a href="#cara-sewa">Cara Sewa</a></li>
+        <li><a href="#testimoni">Testimoni</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+      <a href="https://wa.me/6285219362314" class="btn btn-primary nav-cta" target="_blank">
+        <i class="fab fa-whatsapp"></i> Hubungi Kami
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="beranda">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="hero-badge">🎓 Solusi Edukasi #1 di Indonesia</span>
+        <h1>Sewa Perangkat Elektronik untuk <span class="gradient-text">Kebutuhan Pendidikan</span></h1>
+        <p class="hero-desc">
+          Laptop, printer, proyektor, tablet & perangkat lainnya tersedia untuk pelajar, mahasiswa, guru, dan institusi pendidikan. Harga terjangkau, proses mudah, kualitas terjamin.
+        </p>
+        <div class="hero-actions">
+          <a href="#produk" class="btn btn-primary btn-lg">
+            <i class="fas fa-th-large"></i> Lihat Katalog
+          </a>
+          <a href="#cara-sewa" class="btn btn-outline btn-lg">
+            <i class="fas fa-play-circle"></i> Cara Sewa
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <strong>5,000+</strong>
+            <span>Perangkat Tersedia</span>
+          </div>
+          <div class="stat-item">
+            <strong>12,000+</strong>
+            <span>Penyewa Puas</span>
+          </div>
+          <div class="stat-item">
+            <strong>150+</strong>
+            <span>Institusi Partner</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card hero-card-main">
+          <i class="fas fa-laptop"></i>
+          <h3>Laptop</h3>
+          <p>Core i5 / Ryzen 5+</p>
+          <span class="price">Mulai Rp 75rb/hari</span>
+        </div>
+        <div class="hero-card hero-card-float-1">
+          <i class="fas fa-print"></i>
+          <h3>Printer</h3>
+          <span class="price">Rp 50rb/hari</span>
+        </div>
+        <div class="hero-card hero-card-float-2">
+          <i class="fas fa-video"></i>
+          <h3>Proyektor</h3>
+          <span class="price">Rp 100rb/hari</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== KEUNGGULAN ========== -->
+  <section class="features" id="layanan">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Mengapa Memilih Kami</span>
+        <h2>Keunggulan <span class="gradient-text">RentEdu</span></h2>
+        <p>Kami berkomitmen memberikan layanan sewa terbaik untuk dunia pendidikan</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon" style="--accent: #4f46e5;">
+            <i class="fas fa-money-bill-wave"></i>
+          </div>
+          <h3>Harga Terjangkau</h3>
+          <p>Paket khusus pelajar & mahasiswa dengan diskon hingga 30%. Harga spesial untuk institusi pendidikan.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="--accent: #0ea5e9;">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Perangkat Berkualitas</h3>
+          <p>Semua perangkat dalam kondisi prima, terawat rutin, dan dilengkapi garansi selama masa sewa.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="--accent: #10b981;">
+            <i class="fas fa-truck"></i>
+          </div>
+          <h3>Antar-Jemput Gratis</h3>
+          <p>Layanan pengiriman dan pengembalian gratis ke kampus, sekolah, atau alamat Anda di area layanan.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="--accent: #f59e0b;">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>Support 24/7</h3>
+          <p>Tim teknis siap membantu kapan saja. Kendala teknis? Kami ganti perangkat dalam 2 jam.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="--accent: #ec4899;">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h3>Sewa Fleksibel</h3>
+          <p>Harian, mingguan, bulanan, atau per semester. Sesuaikan dengan kebutuhan dan budget Anda.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="--accent: #8b5cf6;">
+            <i class="fas fa-file-contract"></i>
+          </div>
+          <h3>Proses Mudah</h3>
+          <p>Cukup KTP/Kartu Pelajar, tanpa ribet. Booking online, perangkat langsung diantar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== KATALOG PRODUK ========== -->
+  <section class="products" id="produk">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Katalog Perangkat</span>
+        <h2>Pilihan <span class="gradient-text">Perangkat Sewa</span></h2>
+        <p>Berbagai perangkat elektronik siap mendukung kegiatan belajar mengajar Anda</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="product-filters">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="laptop">Laptop</button>
+        <button class="filter-btn" data-filter="printer">Printer</button>
+        <button class="filter-btn" data-filter="proyektor">Proyektor</button>
+        <button class="filter-btn" data-filter="tablet">Tablet</button>
+        <button class="filter-btn" data-filter="lainnya">Lainnya</button>
+      </div>
+
+      <div class="products-grid">
+        <!-- Laptop 1 -->
+        <div class="product-card" data-category="laptop">
+          <div class="product-badge">Populer</div>
+          <div class="product-icon">
+            <i class="fas fa-laptop"></i>
+          </div>
+          <h3>Laptop Standard</h3>
+          <p class="product-spec">Intel Core i5 / Ryzen 5 • 8GB RAM • 256GB SSD</p>
+          <p class="product-desc">Cocok untuk tugas kuliah, browsing, dan presentasi. Termasuk charger dan tas laptop.</p>
+          <div class="product-pricing">
+            <div class="price-tag">
+              <span class="price-amount">Rp 75.000</span>
+              <span class="price-period">/hari</span>
+            </div>
+            <div class="price-alt">Rp 400.000/minggu</div>
+          </div>
+          <a href="https://wa.me/6285219362314?text=Halo, saya ingin menyewa Laptop Standard" class="btn btn-primary btn-block" target="_blank">
+            <i class="fab fa-whatsapp"></i> Sewa Sekarang
+          </a>
+        </div>
+
+        <!-- Laptop 2 -->
+        <div class="product-card" data-category="laptop">
+          <div class="product-badge premium">Premium</div>
+          <div class="product-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3>Laptop High-End</h3>
+          <p class="product-spec">Intel Core i7 / Ryzen 7 • 16GB RAM • 512GB SSD • GPU Dedicated</p>
+          <p class="product-desc">Untuk desain grafis, video editing, programming, dan kebutuhan berat lainnya.</p>
+          <div class="product-pricing">
+            <div class="price-tag">
+              <span class="price-amount">Rp 150.000</span>
+              <span class="price-period">/hari</span>
+            </div>
+            <div class="price-alt">Rp 800.000/minggu</div>
+          </div>
+          <a href="https://wa.me/6285219362314?text=Halo, saya ingin menyewa Laptop High-End" class="btn btn-primary btn-block" target="_blank">
+            <i class="fab fa-whatsapp"></i> Sewa Sekarang
+          </a>
+        </div>
+
+        <!-- MacBook -->
+        <div class="product-card" data-category="laptop">
+          <div class="product-icon">
+            <i class="fab fa-apple"></i>
+          </div>
+          <h3>MacBook Air / Pro</h3>
+          <p class="product-spec">Apple M1/M2 • 8-16GB RAM • 256-512GB SSD</p>
+          <p class="product-desc">Untuk mahasiswa desain, multimedia, dan iOS development.</p>
+          <div class="product-pricing">
+            <div class="price-tag">
+              <span class="price-amount">Rp 200.000</span>
+              <span class="price-period">/hari</span>
+            </div>
+            <div class="price-alt">Rp 1.000.000/minggu</div>
+          </div>
+          <a href="https://wa.me/6285219362314?text=Halo, saya ingin menyewa MacBook" class="btn btn-primary btn-block" target="_blank">
+            <i class="fab fa-whatsapp"></i> Sewa Sekarang
+          </a>
+        </div>
+
+        <!-- Printer -->
+        <div class="product-card" data-category="printer">
+          <div class="product-icon">
+            <i class="fas fa-print"></i>
+          </div>
+          <h3>Printer Inkjet</h3>
+          <p class="product-spec">Print • Scan • Copy • Wi-Fi Ready</p>
+          <p class="product-desc">Printer multifungsi untuk cetak tugas, makalah, dan dokumen. Tinta sudah termasuk.</p>
+          <div class="product-pricing">
+            <div class="price-tag">
+              <span class="price-amount">Rp 50.000</span>
+              <span class="price-period">/hari</span>
+            </div>
+            <div class="price-alt">Rp 250.000/minggu</div>
+          </div>
+          <a href="https://wa.me/6285219362314?text=Halo, saya ingin menyewa Printer Inkjet" class="btn btn-primary btn-block" target="_blank">
+            <i class="fab fa-whatsapp"></i> Sewa Sekarang
+          </a>
+        </div>
+
+        <!-- Printer Laser -->
+        <div class="product-card" data-category="printer">
+          <div class="product-badge">Hemat</div>
+          <div class="product-icon">
+            <i class="fas fa-print"></i>
+          </div>
+          <h3>Printer Laser</h3>
+          <p class="product-spec">Cetak Cepat • Hemat Toner • Network Ready</p>
+          <p class="product-desc">Ideal untuk cetak volume besar: skripsi, laporan, dan materi pembelajaran.</p>
+          <div class="product-pricing">
+            <div class="price-tag">
+              <span class="price-amount">Rp 75.000</span>
+              <span class="price-period">/hari</span>
+            </div>
+            <div class="price-alt">Rp 350.000/minggu</div>
+          </div>
+          <a href="https://wa.me/6285219362314?text=Halo, saya ingin menyewa Printer Laser" class="btn btn-primary btn-block" target="_blank">
+            <i class="fab fa-whatsapp"></i> Sewa Sekarang
+          </a>
+        </div>
+
+        <!-- Proyektor -->
+        <div class="product-card" data-category="proyektor">
+          <div class="product-icon">
+            <i class="fas fa-video"></i>
+          </div>
+          <h3>Proyektor HD</h3>
+          <p class="product-spec">3600 Lumens • HDMI • Full HD • Remote</p>
+          <p class="product-desc">Untuk presentasi, seminar, dan kegiatan kelas. Termasuk kabel HDMI dan layar portable.</p>
+          <div class="product-pricing">
+            <div class="price-tag">
+              <span class="price-amount">Rp 100.000</span>
+              <span class="price-period">/hari</span>
+            </div>
+            <div class="price-alt">Rp 500.000/minggu</div>
+          </div>
+          <a href="https://wa.me/6285219362314?text=Halo, saya ingin menyewa Proyektor HD" class="btn btn-primary btn-block" target="_blank">
+            <i class="fab fa-whatsapp"></i> Sewa Sekarang
+          </a>
+        </div>
+
+        <!-- Tablet -->
+        <div class="product-card" data-category="tablet">
+          <div class="product-icon">
+            <i class="fas fa-tablet-alt"></i>
+          </div>
+          <h3>iPad / Tablet Android</h3>
+          <p class="product-spec">10" Display • Stylus Support • 64-128GB</p>
+          <p class="product-desc">Untuk mencatat, membaca e-book, menggambar digital, dan presentasi mobile.</p>
+          <div class="product-pricing">
+            <div class="price-tag">
+              <span class="price-amount">Rp 60.000</span>
+              <span class="price-period">/hari</span>
+            </div>
+            <div class="price-alt">Rp 300.000/minggu</div>
+          </div>
+          <a href="https://wa.me/6285219362314?text=Halo, saya ingin menyewa Tablet" class="btn btn-primary btn-block" target="_blank">
+            <i class="fab fa-whatsapp"></i> Sewa Sekarang
+          </a>
+        </div>
+
+        <!-- Webcam & Mic -->
+        <div class="product-card" data-category="lainnya">
+          <div class="product-icon">
+            <i class="fas fa-camera"></i>
+          </div>
+          <h3>Webcam + Mic Kit</h3>
+          <p class="product-spec">Full HD 1080p • Noise Cancelling Mic • Tripod</p>
+          <p class="product-desc">Paket lengkap untuk kelas online, webinar, dan video conference.</p>
+          <div class="product-pricing">
+            <div class="price-tag">
+              <span class="price-amount">Rp 35.000</span>
+              <span class="price-period">/hari</span>
+            </div>
+            <div class="price-alt">Rp 150.000/minggu</div>
+          </div>
+          <a href="https://wa.me/6285219362314?text=Halo, saya ingin menyewa Webcam + Mic Kit" class="btn btn-primary btn-block" target="_blank">
+            <i class="fab fa-whatsapp"></i> Sewa Sekarang
+          </a>
+        </div>
+
+        <!-- Speaker -->
+        <div class="product-card" data-category="lainnya">
+          <div class="product-icon">
+            <i class="fas fa-volume-up"></i>
+          </div>
+          <h3>Speaker Portable</h3>
+          <p class="product-spec">Bluetooth • 50W • Battery 12 Jam • Mic Input</p>
+          <p class="product-desc">Untuk acara kampus, presentasi outdoor, dan kegiatan ekstrakurikuler.</p>
+          <div class="product-pricing">
+            <div class="price-tag">
+              <span class="price-amount">Rp 80.000</span>
+              <span class="price-period">/hari</span>
+            </div>
+            <div class="price-alt">Rp 400.000/minggu</div>
+          </div>
+          <a href="https://wa.me/6285219362314?text=Halo, saya ingin menyewa Speaker Portable" class="btn btn-primary btn-block" target="_blank">
+            <i class="fab fa-whatsapp"></i> Sewa Sekarang
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PAKET BUNDLING ========== -->
+  <section class="bundles">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Hemat Lebih Banyak</span>
+        <h2>Paket <span class="gradient-text">Bundling Spesial</span></h2>
+        <p>Kombinasi perangkat dengan harga lebih hemat untuk kebutuhan lengkap</p>
+      </div>
+      <div class="bundles-grid">
+        <div class="bundle-card">
+          <div class="bundle-header">
+            <h3>Paket Mahasiswa</h3>
+            <p>Untuk kebutuhan sehari-hari kuliah</p>
+          </div>
+          <div class="bundle-price">
+            <span class="bundle-amount">Rp 350.000</span>
+            <span class="bundle-period">/minggu</span>
+          </div>
+          <ul class="bundle-items">
+            <li><i class="fas fa-check"></i> 1x Laptop Standard (i5)</li>
+            <li><i class="fas fa-check"></i> 1x Mouse Wireless</li>
+            <li><i class="fas fa-check"></i> 1x Tas Laptop</li>
+            <li><i class="fas fa-check"></i> Gratis Antar-Jemput</li>
+            <li><i class="fas fa-check"></i> Support 24/7</li>
+          </ul>
+          <a href="https://wa.me/6285219362314?text=Halo, saya tertarik Paket Mahasiswa" class="btn btn-outline btn-block" target="_blank">Pilih Paket</a>
+        </div>
+
+        <div class="bundle-card bundle-featured">
+          <div class="bundle-ribbon">Best Seller</div>
+          <div class="bundle-header">
+            <h3>Paket Presentasi</h3>
+            <p>Lengkap untuk presentasi & seminar</p>
+          </div>
+          <div class="bundle-price">
+            <span class="bundle-amount">Rp 250.000</span>
+            <span class="bundle-period">/hari</span>
+          </div>
+          <ul class="bundle-items">
+            <li><i class="fas fa-check"></i> 1x Laptop High-End (i7)</li>
+            <li><i class="fas fa-check"></i> 1x Proyektor Full HD</li>
+            <li><i class="fas fa-check"></i> 1x Speaker Portable</li>
+            <li><i class="fas fa-check"></i> Layar Proyektor + Stand</li>
+            <li><i class="fas fa-check"></i> Kabel HDMI & Extension</li>
+            <li><i class="fas fa-check"></i> Setup & Takedown Gratis</li>
+          </ul>
+          <a href="https://wa.me/6285219362314?text=Halo, saya tertarik Paket Presentasi" class="btn btn-primary btn-block" target="_blank">Pilih Paket</a>
+        </div>
+
+        <div class="bundle-card">
+          <div class="bundle-header">
+            <h3>Paket Skripsi</h3>
+            <p>Pendamping setia di masa akhir kuliah</p>
+          </div>
+          <div class="bundle-price">
+            <span class="bundle-amount">Rp 1.200.000</span>
+            <span class="bundle-period">/bulan</span>
+          </div>
+          <ul class="bundle-items">
+            <li><i class="fas fa-check"></i> 1x Laptop High-End (i7)</li>
+            <li><i class="fas fa-check"></i> 1x Printer Laser</li>
+            <li><i class="fas fa-check"></i> 1x Webcam + Mic Kit</li>
+            <li><i class="fas fa-check"></i> Toner/Tinta Gratis 500 lembar</li>
+            <li><i class="fas fa-check"></i> Gratis Perpanjangan 3 Hari</li>
+          </ul>
+          <a href="https://wa.me/6285219362314?text=Halo, saya tertarik Paket Skripsi" class="btn btn-outline btn-block" target="_blank">Pilih Paket</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CARA SEWA ========== -->
+  <section class="how-it-works" id="cara-sewa">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Mudah & Cepat</span>
+        <h2>Cara <span class="gradient-text">Menyewa</span></h2>
+        <p>Hanya 4 langkah mudah, perangkat langsung sampai di tangan Anda</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <div class="step-icon"><i class="fas fa-search"></i></div>
+          <h3>Pilih Perangkat</h3>
+          <p>Lihat katalog dan pilih perangkat sesuai kebutuhan belajar Anda.</p>
+        </div>
+        <div class="step-connector"><i class="fas fa-arrow-right"></i></div>
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <div class="step-icon"><i class="fab fa-whatsapp"></i></div>
+          <h3>Hubungi via WhatsApp</h3>
+          <p>Chat kami untuk konfirmasi ketersediaan, durasi sewa, dan lokasi pengiriman.</p>
+        </div>
+        <div class="step-connector"><i class="fas fa-arrow-right"></i></div>
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <div class="step-icon"><i class="fas fa-id-card"></i></div>
+          <h3>Verifikasi Identitas</h3>
+          <p>Kirim foto KTP/Kartu Pelajar/KTM untuk proses verifikasi cepat (maks 30 menit).</p>
+        </div>
+        <div class="step-connector"><i class="fas fa-arrow-right"></i></div>
+        <div class="step-card">
+          <div class="step-number">4</div>
+          <div class="step-icon"><i class="fas fa-box-open"></i></div>
+          <h3>Terima Perangkat</h3>
+          <p>Perangkat diantar ke lokasi Anda. Bayar saat terima, langsung bisa digunakan!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONI ========== -->
+  <section class="testimonials" id="testimoni">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Kata Mereka</span>
+        <h2>Testimoni <span class="gradient-text">Pelanggan</span></h2>
+        <p>Ribuan pelajar dan mahasiswa sudah merasakan manfaat RentEdu</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Sangat terbantu! Saya sewa laptop selama 1 semester untuk kuliah dan harganya sangat terjangkau. Kondisi laptopnya juga prima, tidak lemot sama sekali."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AR</div>
+            <div>
+              <strong>Aisyah Rahmawati</strong>
+              <span>Mahasiswi Teknik Informatika, UI</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Paket Presentasi-nya lengkap banget. Buat seminar proposal skripsi tinggal datang, semua perangkat sudah disiapkan. Top!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">BW</div>
+            <div>
+              <strong>Budi Wijaya</strong>
+              <span>Mahasiswa Manajemen, UGM</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <p class="testimonial-text">"Sekolah kami sewa 30 laptop untuk ujian online. Prosesnya cepat, harga spesial untuk institusi, dan tim teknisnya standby sampai selesai."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SP</div>
+            <div>
+              <strong>Siti Permata, S.Pd.</strong>
+              <span>Guru TIK, SMAN 5 Bandung</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Pertanyaan Umum</span>
+        <h2>Frequently Asked <span class="gradient-text">Questions</span></h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Apa saja syarat untuk menyewa perangkat?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Anda hanya perlu menyiapkan KTP/Kartu Pelajar/KTM yang masih berlaku beserta foto selfie memegang kartu identitas. Untuk institusi, cukup surat pengantar dari pihak sekolah/kampus.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Berapa minimal durasi sewa?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Minimal sewa adalah 1 hari (24 jam). Kami juga menyediakan paket mingguan, bulanan, dan per semester dengan harga lebih hemat.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Bagaimana jika perangkat mengalami kerusakan?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Kerusakan akibat pemakaian normal ditanggung oleh kami dan kami akan mengganti perangkat dalam waktu maksimal 2 jam. Kerusakan akibat kelalaian penyewa akan dikenakan biaya perbaikan sesuai kebijakan.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Apakah bisa sewa dalam jumlah banyak untuk event/ujian?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Tentu! Kami melayani penyewaan massal hingga ratusan unit sekaligus untuk ujian online, workshop, pelatihan, dan event kampus. Hubungi kami untuk penawaran harga spesial.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Area mana saja yang dijangkau layanan antar-jemput?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Saat ini kami melayani area Jabodetabek, Bandung, Yogyakarta, Surabaya, Semarang, dan Malang. Untuk kota lainnya, silakan hubungi kami untuk informasi lebih lanjut.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Metode pembayaran apa saja yang diterima?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Kami menerima transfer bank (BCA, Mandiri, BRI, BNI), e-wallet (GoPay, OVO, DANA, ShopeePay), QRIS, dan pembayaran tunai saat pengiriman (COD).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-content">
+          <h2>Siap Menyewa Perangkat?</h2>
+          <p>Dapatkan perangkat yang Anda butuhkan sekarang juga. Konsultasi gratis, tanpa commitment!</p>
+          <div class="cta-actions">
+            <a href="https://wa.me/6285219362314?text=Halo RentEdu, saya ingin konsultasi tentang sewa perangkat" class="btn btn-white btn-lg" target="_blank">
+              <i class="fab fa-whatsapp"></i> Chat WhatsApp
+            </a>
+            <a href="tel:+6285219362314" class="btn btn-outline-white btn-lg">
+              <i class="fas fa-phone-alt"></i> 0852-1936-2314
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== KONTAK ========== -->
+  <section class="contact" id="kontak">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Hubungi Kami</span>
+        <h2>Informasi <span class="gradient-text">Kontak</span></h2>
+        <p>Tim kami siap melayani Anda setiap hari</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Alamat Kantor</h4>
+              <p>Jl. Pendidikan No. 123<br>Kelurahan Cikini, Kecamatan Menteng<br>Jakarta Pusat, 10330</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <h4>Telepon</h4>
+              <p>0852-1936-2314 (WhatsApp)<br>021-1234-5678 (Kantor)</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <p>dimasgalangprasetyoo@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <h4>Jam Operasional</h4>
+              <p>Senin – Sabtu: 08.00 – 21.00 WIB<br>Minggu: 09.00 – 17.00 WIB</p>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://www.instagram.com/dmsglnk/?hl=id" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contactForm">
+            <h3>Kirim Pesan</h3>
+            <div class="form-group">
+              <label for="name">Nama Lengkap</label>
+              <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="email@domain.com" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">No. WhatsApp</label>
+                <input type="tel" id="phone" name="phone" placeholder="08xxxxxxxxxx" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Keperluan</label>
+              <select id="subject" name="subject" required>
+                <option value="" disabled selected>Pilih keperluan</option>
+                <option value="sewa-personal">Sewa Personal (Pelajar/Mahasiswa)</option>
+                <option value="sewa-institusi">Sewa Institusi (Sekolah/Kampus)</option>
+                <option value="sewa-event">Sewa untuk Event/Ujian</option>
+                <option value="kerjasama">Kerjasama & Partnership</option>
+                <option value="lainnya">Lainnya</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="4" placeholder="Jelaskan kebutuhan Anda..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block btn-lg">
+              <i class="fas fa-paper-plane"></i> Kirim Pesan
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <i class="fas fa-laptop-code"></i>
+            <span>Rent<span class="accent">Edu</span></span>
+          </a>
+          <p>Solusi penyewaan perangkat elektronik terpercaya untuk dunia pendidikan di Indonesia. Mendukung transformasi digital pendidikan sejak 2020.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigasi</h4>
+          <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#layanan">Keunggulan</a></li>
+            <li><a href="#produk">Katalog</a></li>
+            <li><a href="#cara-sewa">Cara Sewa</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Layanan</h4>
+          <ul>
+            <li><a href="#produk">Sewa Laptop</a></li>
+            <li><a href="#produk">Sewa Printer</a></li>
+            <li><a href="#produk">Sewa Proyektor</a></li>
+            <li><a href="#produk">Sewa Tablet</a></li>
+            <li><a href="#produk">Paket Bundling</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Kontak</h4>
+          <ul>
+            <li><i class="fas fa-phone-alt"></i> 0852-1936-2314</li>
+            <li><i class="fas fa-envelope"></i> dimasgalangprasetyoo@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Jakarta Pusat</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 RentEdu. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Syarat & Ketentuan</a>
+          <a href="#">Kebijakan Privasi</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/6285219362314?text=Halo RentEdu, saya ingin bertanya tentang layanan sewa perangkat" class="wa-float" target="_blank" aria-label="Chat WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
